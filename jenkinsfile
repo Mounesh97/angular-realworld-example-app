@@ -1,0 +1,8 @@
+node{
+stage('SCM Checkout'){
+git 'https://github.com/Mounesh97/angular-realworld-example-app'
+}
+stage(Compile-Package')
+sh 'mvn package'
+}
+}
